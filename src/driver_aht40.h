@@ -182,8 +182,6 @@ uint8_t aht40_info(aht40_info_t *info);
  *            - 1 iic failed
  *            - 2 handle is NULL
  *            - 3 linked functions is NULL
- *            - 4 read status failed
- *            - 5 reset reg failed
  * @note      none
  */
 uint8_t aht40_init(aht40_handle_t *handle);
